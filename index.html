@@ -1,25 +1,48 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>My Presentation</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-        <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
-        <link rel="stylesheet" href="../reveal.js/dist/theme/blood.css" id="theme">
-        <script>
-            document.write('<script src="../reveal.js/dist/reveal.js"><\/script>');
-        </script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>Presentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="reveal.js/dist/theme/white.css" id="theme">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="reveal.js/dist/reveal.js"></script>
+</head>
     <body>
         <div class="reveal">
             <div class="slides">
-                <section>Slide A</section>
-                <section>Slide B</section>
+
+            <!-- Title slide -->
+            <section>
+                <h1>This is the Potentially Very Long Title of the Presentation</h1>
+                <h2>Thesis Presentation</h2>
+                <h3>Stefan Gloor</h3>
+                <p><span id="current_date"></span></p>
+                <script>
+                    const date = new Date();
+                    const year = date.getFullYear();
+                    const month = date.getMonth() + 1;
+                    const day = date.getDate();
+                    document.getElementById("current_date").textContent = `${day}.${month}.${year}`;
+                </script>
+            </section>
+
+            <!-- Intro slide -->
+            <section>
+                <h2>Title</h2>
+            </section>
+
             </div>
         </div>
         <script>
-            Reveal.initialize();
+            Reveal.initialize({
+                controls: false,
+                slideNumber: 'c/t',
+                showSlideNumber: 'all'
+            });
         </script>
+
     </body>
 </html>
 

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Computer-Modern";
+    src: url(../assets/cmunss.ttf) format("truetype");
+}
+
+.reveal h1 {
+    font-size: 60px;
+    font-family: "Computer-Modern", sans-serif;
+    text-transform: none;
+    font-weight: bold;
+    background: #e0000020;
+    border-radius: 20px;
+    color: black;
+    padding: 40px;
+}
+.reveal h2 {
+    font-size: 40px;
+    font-family: "Computer-Modern", sans-serif;
+    text-transform: none;
+    font-weight: normal;
+    padding: 20px;
+}
+.reveal h3 {
+    font-size: 30px;
+    font-family: "Computer-Modern", sans-serif;
+    text-transform: none;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.reveal p {
+    font-size: 30px;
+    font-family: "Computer-Modern", sans-serif;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.reveal .slide-number {
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.reveal .progress {
+  color: #ff0000;
+  height: 1%;
+}
