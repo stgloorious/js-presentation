@@ -3,6 +3,12 @@ Demo project using reveal.js and p5.js.
 
 ![Demo GIF](assets/demo.gif)
 
+## Clone
+Make sure you clone the repository recursively to get the submodule.
+~~~
+git clone --recursive https://github.com/stgloorious/js-presentation.git
+~~~
+
 ## Dependencies
 Install latest `p5.min.js` from [Github](https://github.com/processing/p5.js/releases)
 and place in root directory.
