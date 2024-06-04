@@ -1,5 +1,5 @@
-# Javascript Presentation Demo
-Demo project using reveal.js and p5.js.
+# Interactive Javascript Presentation Demo
+Demo presentation using reveal.js and embedded p5.js sketches.
 
 ![Demo GIF](assets/demo.gif)
 
@@ -10,7 +10,7 @@ git clone --recursive https://github.com/stgloorious/js-presentation.git
 ~~~
 
 ## Dependencies
-Install latest `p5.min.js` from [Github](https://github.com/processing/p5.js/releases)
+Download latest `p5.min.js` from [Github](https://github.com/processing/p5.js/releases)
 and place in root directory.
 
 ## Run
